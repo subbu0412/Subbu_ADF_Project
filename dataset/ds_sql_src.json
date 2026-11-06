@@ -1,0 +1,17 @@
+{
+	"name": "ds_sql_src",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase_LS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Subbu_FactBookings"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

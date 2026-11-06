@@ -1,0 +1,20 @@
+{
+	"name": "ds_sink_github",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AutoResolve_LS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "GitHub",
+				"fileSystem": "bronze"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

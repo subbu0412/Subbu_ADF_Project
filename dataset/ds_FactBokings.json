@@ -1,0 +1,24 @@
+{
+	"name": "ds_FactBokings",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AutoResolve_LS",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "Dataflow"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "sql",
+				"fileSystem": "bronze"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,33 @@
+{
+	"name": "ds_sink_gen2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AutoResolve_LS",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"p_files": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": {
+					"value": "@dataset().p_files",
+					"type": "Expression"
+				},
+				"folderPath": "project",
+				"fileSystem": "bronze"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

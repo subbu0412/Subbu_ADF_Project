@@ -1,0 +1,15 @@
+{
+	"name": "subbuADF0412",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "australiaeast",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ccc70a53-6db6-43bc-adcd-849b5228571c",
+		"tenantId": "1ebc7815-dc66-412d-9389-a07d71bdf17e"
+	}
+}

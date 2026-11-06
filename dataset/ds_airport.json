@@ -1,0 +1,40 @@
+{
+	"name": "ds_airport",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AutoResolve_LS",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "Dataflow"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "DimAirport.json",
+				"folderPath": "GitHub/anshlambagit/AnshLambaYoutube/refs/heads/main/ADF_Project",
+				"fileSystem": "bronze"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"airport_id": {
+					"type": "integer"
+				},
+				"airport_name": {
+					"type": "string"
+				},
+				"city": {
+					"type": "string"
+				},
+				"country": {
+					"type": "string"
+				}
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

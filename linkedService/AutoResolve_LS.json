@@ -1,0 +1,12 @@
+{
+	"name": "AutoResolve_LS",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://subbustorageac0412.dfs.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDM1RkQ1ODIwLUQyQzYtNDc5MS04OUVBLTA1OTk1ODYwRTAyNV81YTI3MzEyMy1lNmIyLTQxODUtOWY4OC1lNWJhNmI5YTJkNDYiDQp9"
+		}
+	}
+}
