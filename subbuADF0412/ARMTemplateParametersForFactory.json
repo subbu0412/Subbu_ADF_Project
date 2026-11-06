@@ -1,0 +1,39 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "subbuADF0412"
+		},
+		"AutoResolve_LS_accountKey": {
+			"value": ""
+		},
+		"AzureSqlDatabase_LS_password": {
+			"value": ""
+		},
+		"FileSystem_LS_password": {
+			"value": ""
+		},
+		"AutoResolve_LS_properties_typeProperties_url": {
+			"value": "https://subbustorageac0412.dfs.core.windows.net/"
+		},
+		"AzureSqlDatabase_LS_properties_typeProperties_server": {
+			"value": "nikhilrajserver123.database.windows.net"
+		},
+		"AzureSqlDatabase_LS_properties_typeProperties_database": {
+			"value": "nikhilrajdb"
+		},
+		"AzureSqlDatabase_LS_properties_typeProperties_userName": {
+			"value": "nikhilraj"
+		},
+		"FileSystem_LS_properties_typeProperties_host": {
+			"value": "C:\\ADF_Project"
+		},
+		"FileSystem_LS_properties_typeProperties_userId": {
+			"value": "Hello SUBBU!"
+		},
+		"github_LS_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/"
+		}
+	}
+}
